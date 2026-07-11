@@ -1,3 +1,8 @@
-- Emissions|CO2:
-    description: Total net emissions of carbon dioxide (CO2)
-    unit: Mt CO2/yr
+- Climate Assessment|Surface Temperature (GSAT)|{Percentile} [{Climate Model}]:
+    description: "{Percentile} of the global mean surface air temperature relative to the
+      pre-industrial average as computed by the {Climate Model} climate model"
+    unit: °C
+- Climate Assessment|Harmonized and Infilled|Emissions|{Species} [{Climate Pipeline}]:
+    description: Total net emissions of {Species} after harmonization and infilling
+    unit: "{Species}"
+    lower_bound: "{Species}"
