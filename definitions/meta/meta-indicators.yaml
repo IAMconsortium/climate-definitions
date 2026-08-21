@@ -1,7 +1,16 @@
 - Climate Assessment|Peak Warming|{Percentile} [{Climate Model}]:
+    definition: Peak global mean surface air temperature ({Percentile}) relative to the
+      pre-industrial average as computed by the {Climate Model} climate model
     range: [0, 100]
-- Climate Assessment|Year of Peak Warming|{Percentile} [{Climate Model}]
+- Climate Assessment|Year of Peak Warming|{Percentile} [{Climate Model}]:
+    definition: Year in which peak global mean surface air temperature ({Percentile})
+      relative to the pre-industrial average is reached as computed by the
+      {Climate Model} climate model
 - Climate Assessment|Warming in 2100|{Percentile} [{Climate Model}]:
+    definition: Global mean surface air temperature ({Percentile}) in the year 2100
+      relative to the pre-industrial average as computed by the {Climate Model} climate model
     lower_bound: 0
 - Climate Assessment|Exceedance Probability {Temperature Threshold}°C [{Climate Model}, %]:
+    definition: Maximum probability to exceed the {Temperature Threshold} threshold
+      over the modelled time horizon as computed by the {Climate Model} climate model
     range: [0, 100]

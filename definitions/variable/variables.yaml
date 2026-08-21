@@ -3,10 +3,11 @@
     unit: "{Species}"
     lower_bound: "{Species}"
 - Climate Assessment|Surface Temperature (GSAT)|{Percentile} [{Climate Model}]:
-    description: "{Percentile} of the global mean surface air temperature relative to the
-      pre-industrial average as computed by the {Climate Model} climate model"
+    description: Global mean surface air temperature ({Percentile}) relative to the
+      pre-industrial average as computed by the {Climate Model} climate model
     unit: °C
 - Climate Assessment|Exceedance Probability {Temperature Threshold} [{Climate Model}]:
     description: Probability to exceed the {Temperature Threshold} threshold
       as computed by the {Climate Model} climate model
     unit: "%"
+    range: [0, 100]
