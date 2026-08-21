@@ -6,3 +6,7 @@
     description: Total net emissions of {Species} after harmonization and infilling
     unit: "{Species}"
     lower_bound: "{Species}"
+- Climate Assessment|Exceedance Probability {Temperature Threshold} [{Climate Model}]:
+    description: Probability to exceed the {Temperature Threshold} threshold
+      as computed by the {Climate Model} climate model
+    unit: "%"
