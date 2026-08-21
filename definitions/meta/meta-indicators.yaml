@@ -1,4 +1,7 @@
-- Climate Assessment|Peak Warming|{Percentile} [{Climate Model}]
+- Climate Assessment|Peak Warming|{Percentile} [{Climate Model}]:
+    range: [0, 100]
 - Climate Assessment|Year of Peak Warming|{Percentile} [{Climate Model}]
-- Climate Assessment|Warming in 2100|{Percentile} [{Climate Model}]
-- Climate Assessment|Exceedance Probability {Temperature Threshold}°C [{Climate Model}, %]
+- Climate Assessment|Warming in 2100|{Percentile} [{Climate Model}]:
+    lower_bound: 0
+- Climate Assessment|Exceedance Probability {Temperature Threshold}°C [{Climate Model}, %]:
+    range: [0, 100]
