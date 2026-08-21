@@ -1,3 +1,5 @@
  - Climate Model:
-     - MAGICC v7.5.3
-     - MAGICC v7.6.0a3
+     - MAGICC v7.5.3:
+          definition: MAGICC v7.5.3 using the AR6 climate processing workflow
+     - MAGICC v7.6.0a3:
+          definition: MAGICC v7.6.0a3 using the gcages v0.15 climate processing workflow
