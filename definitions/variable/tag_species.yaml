@@ -1,5 +1,10 @@
 # Please make sure that this is list is consistent with common-definitions
 - Species:
+    - Kyoto Gases [AR6GWP100]:
+        description: Kyoto GHG emissions, including CO2, CH4, N2O and F-gases,
+          aggregated using AR6 GWP100 global warming potential metric
+        unit: Mt CO2-equiv/yr
+        lower_bound:  # no lower bound
     - CO2:
         description: carbon dioxide (CO2)
         unit: Mt CO2/yr
@@ -12,11 +17,6 @@
     - CO2|Biosphere:
         description: carbon dioxide (CO2) from the active carbon cycle
         unit: Mt CO2/yr
-        lower_bound:  # no lower bound
-    - Kyoto Gases [AR6GWP100]:
-        description: Kyoto GHG emissions, including CO2, CH4, N2O and F-gases
-        notes: Preferably use AR4 100-year GWPs for aggregation of different gases
-        unit: Mt CO2-equiv/yr
         lower_bound:  # no lower bound
     - CH4:
         description: methane (CH4)
